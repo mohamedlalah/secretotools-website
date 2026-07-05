@@ -1,0 +1,10 @@
+{
+"name":"SecretoTools",
+"short_name":"SecretoTools",
+"start_url":"/",
+"display":"standalone",
+"background_color":"#0b1020",
+"theme_color":"#1677ff",
+"description":"Professional Android TV & Google TV Toolkit",
+"icons":[]
+}
