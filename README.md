@@ -1,9 +1,7 @@
-# SecretoTools Website
+# SecretoTools v2.0
 
-Official static website for SecretoTools TV.
+Production-ready static website for secretotools.com.
 
 ## Deploy
-Host with Cloudflare Pages. No build command needed.
-
-- Build command: leave empty
-- Output directory: `/` or root
+Upload all files in this folder to the GitHub repository connected to Cloudflare Pages.
+No build command is required.
