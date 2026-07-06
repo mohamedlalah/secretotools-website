@@ -1,7 +1,19 @@
-# SecretoTools v2.0
+# SecretoTools Website v2.0
 
-Production-ready static website for secretotools.com.
+Production-ready static website for SecretoTools TV.
 
-## Deploy
-Upload all files in this folder to the GitHub repository connected to Cloudflare Pages.
-No build command is required.
+## Deployment
+Cloudflare Pages / GitHub Pages compatible.
+
+- Framework: none
+- Build command: leave empty
+- Output directory: root `/`
+
+## Included
+- Responsive HTML/CSS/Vanilla JS
+- SEO meta tags, Open Graph, Twitter Cards, canonical URLs
+- Schema.org structured data
+- robots.txt and sitemap.xml
+- manifest.webmanifest
+- favicon, Apple icons and Android icons
+- Cloudflare Pages `_headers` and `_redirects`
