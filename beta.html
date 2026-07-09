@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SecretoTools TV Beta Portal | برنامج المختبرين</title>
+  <meta name="description" content="انضم إلى برنامج SecretoTools TV Closed Beta وساعدنا في اختبار التطبيق قبل إطلاقه الرسمي على Google Play لأجهزة Android TV وGoogle TV." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://secretotools.com/beta.html" />
+
+  <meta property="og:title" content="SecretoTools TV Beta Portal" />
+  <meta property="og:description" content="مركز المختبرين الرسمي لتطبيق SecretoTools TV لأجهزة Android TV وGoogle TV." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://secretotools.com/beta.html" />
+  <meta property="og:image" content="https://secretotools.com/st.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SecretoTools TV Beta Portal" />
+  <meta name="twitter:description" content="انضم إلى الاختبار المغلق لتطبيق SecretoTools TV." />
+  <meta name="twitter:image" content="https://secretotools.com/st.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SecretoTools TV",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Android TV, Google TV",
+    "url": "https://secretotools.com/beta.html",
+    "author": {
+      "@type": "Person",
+      "name": "Mohamed LALAH"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #050816;
+      --card: #0f172a;
+      --card2: #111827;
+      --blue: #0ea5ff;
+      --blue2: #2563eb;
+      --red: #ef4444;
+      --text: #ffffff;
+      --muted: #94a3b8;
+      --line: rgba(255,255,255,.12);
+      --glow: 0 0 30px rgba(14,165,255,.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(14,165,255,.22), transparent 35%),
+        radial-gradient(circle at bottom left, rgba(239,68,68,.14), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: auto;
+    }
+
+    header {
+      padding: 22px 0;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(5,8,22,.78);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      font-size: 20px;
+    }
+
+    .brand img {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      box-shadow: var(--glow);
+    }
+
+    .nav a.btn-small {
+      background: linear-gradient(135deg, var(--blue), var(--blue2));
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+
+    .hero {
+      padding: 70px 0 50px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 42px;
+      align-items: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      border: 1px solid rgba(14,165,255,.35);
+      background: rgba(14,165,255,.09);
+      color: #bae6fd;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 64px);
+      line-height: 1.15;
+      margin: 0 0 20px;
+      letter-spacing: -1px;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #38bdf8, #2563eb);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 720px;
+      margin-bottom: 28px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 14px 22px;
+      border-radius: 16px;
+      font-weight: 800;
+      transition: .25s ease;
+      border: 1px solid transparent;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--blue), var(--blue2));
+      box-shadow: var(--glow);
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,.06);
+      border-color: var(--line);
+    }
+
+    .btn-red {
+      background: linear-gradient(135deg, #ef4444, #b91c1c);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      filter: brightness(1.1);
+    }
+
+    .hero-card {
+      background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03));
+      border: 1px solid var(--line);
+      border-radius: 34px;
+      padding: 34px;
+      text-align: center;
+      box-shadow: 0 24px 70px rgba(0,0,0,.35);
+    }
+
+    .hero-card img {
+      width: min(310px, 80%);
+      border-radius: 34px;
+      box-shadow: var(--glow);
+    }
+
+    section {
+      padding: 50px 0;
+    }
+
+    .section-title {
+      margin-bottom: 24px;
+    }
+
+    .section-title h2 {
+      margin: 0 0 10px;
+      font-size: clamp(26px, 4vw, 40px);
+    }
+
+    .section-title p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .stats {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cards3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+      background: rgba(15,23,42,.82);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+    }
+
+    .stat strong {
+      font-size: 34px;
+      display: block;
+      color: #38bdf8;
+    }
+
+    .stat span {
+      color: var(--muted);
+    }
+
+    .steps {
+      counter-reset: step;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .step {
+      position: relative;
+    }
+
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      display: inline-flex;
+      width: 42px;
+      height: 42px;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--blue), var(--blue2));
+      border-radius: 50%;
+      font-weight: 900;
+      margin-bottom: 12px;
+    }
+
+    .supported li,
+    .notes li {
+      margin: 8px 0;
+      color: var(--muted);
+    }
+
+    .supported strong {
+      color: var(--text);
+    }
+
+    .video {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      border: 0;
+      border-radius: 28px;
+      box-shadow: 0 18px 60px rgba(0,0,0,.4);
+    }
+
+    .changelog-item {
+      border-right: 3px solid var(--blue);
+      padding-right: 18px;
+      margin-bottom: 18px;
+    }
+
+    .changelog-item h3 {
+      margin: 0 0 8px;
+      color: #38bdf8;
+    }
+
+    details {
+      background: rgba(255,255,255,.045);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px 20px;
+      margin-bottom: 12px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    details p {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 32px 0;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .footer-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      color: var(--text);
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .footer-logo img {
+      width: 38px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .hero p {
+        margin-inline: auto;
+      }
+
+      .actions {
+        justify-content: center;
+      }
+
+      .stats,
+      .cards3,
+      .steps {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .stats,
+      .cards3,
+      .steps {
+        grid-template-columns: 1fr;
+      }
+
+      .nav {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .hero-card {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img src="st.png" alt="SecretoTools TV Logo" />
+        <span>SecretoTools TV Beta</span>
+      </div>
+      <a class="btn-small" href="https://play.google.com/apps/testing/com.secretofnet.secretotoolstv" target="_blank" rel="noopener">انضم الآن</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div>
+        <div class="badge">🚀 برنامج الاختبار المغلق الرسمي</div>
+        <h1>مرحبًا بك في <span>SecretoTools TV Beta Portal</span></h1>
+        <p>
+          هذه الصفحة هي المركز الرسمي لمختبري تطبيق SecretoTools TV.
+          ساعدنا في اختبار التطبيق وتحسينه قبل إطلاقه رسميًا على Google Play
+          لأجهزة Android TV وGoogle TV.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="https://play.google.com/apps/testing/com.secretofnet.secretotoolstv" target="_blank" rel="noopener">🚀 الانضمام للاختبار المغلق</a>
+          <a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSeoyOi9xqy_EGQS554AEoZisJQGso8NOuqouGXSeGrPKFaoQg/viewform" target="_blank" rel="noopener">🐞 إرسال الملاحظات</a>
+          <a class="btn btn-red" href="#video">▶ مشاهدة فيديو التعريف</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="st.png" alt="SecretoTools TV" />
+        <h2>Version 1.0.0</h2>
+        <p>Closed Beta for Android TV / Google TV</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="grid stats">
+        <div class="card stat"><strong>300+</strong><span>مسجل في البرنامج</span></div>
+        <div class="card stat"><strong>47+</strong><span>تمت دعوتهم مبدئيًا</span></div>
+        <div class="card stat"><strong>9+</strong><span>مختبر نشط حاليًا</span></div>
+        <div class="card stat"><strong>1.0.0</strong><span>الإصدار الحالي</span></div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-title">
+        <h2>ما هو SecretoTools TV؟</h2>
+        <p>تطبيق أدوات احترافي مخصص لأجهزة Android TV وGoogle TV.</p>
+      </div>
+
+      <div class="grid cards3">
+        <div class="card">
+          <h3>📺 مخصص للتلفزيون</h3>
+          <p>واجهة مصممة خصيصًا للاستخدام بالريموت على Android TV وGoogle TV.</p>
+        </div>
+        <div class="card">
+          <h3>🧰 أدوات ذكية</h3>
+          <p>معلومات الجهاز، الشبكة، التخزين، التطبيقات، وفحص التوافق بطريقة سهلة.</p>
+        </div>
+        <div class="card">
+          <h3>🔒 آمن وبسيط</h3>
+          <p>تطبيق خفيف، واضح، وبدون تعقيد للمستخدمين.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-title">
+        <h2>خطوات الانضمام للاختبار</h2>
+        <p>اتبع هذه الخطوات بنفس حساب Gmail الذي سجلت به.</p>
+      </div>
+
+      <div class="grid steps">
+        <div class="card step">
+          <h3>افتح رابط الاختبار</h3>
+          <p>اضغط على زر الانضمام للاختبار المغلق.</p>
+        </div>
+        <div class="card step">
+          <h3>Become a Tester</h3>
+          <p>اضغط على زر الانضمام كمختبر في صفحة Google Play.</p>
+        </div>
+        <div class="card step">
+          <h3>افتح Google Play</h3>
+          <p>افتح المتجر على جهاز Android TV أو Google TV بنفس الحساب.</p>
+        </div>
+        <div class="card step">
+          <h3>ثبّت التطبيق</h3>
+          <p>ابحث عن SecretoTools TV وثبته ثم ابدأ التجربة.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="grid cards3">
+        <div class="card supported">
+          <h2>✅ الأجهزة المدعومة</h2>
+          <ul>
+            <li><strong>Google TV</strong></li>
+            <li><strong>Android TV</strong></li>
+            <li><strong>Android TV Box</strong></li>
+          </ul>
+        </div>
+
+        <div class="card supported">
+          <h2>❌ غير مدعوم</h2>
+          <ul>
+            <li>الهواتف الذكية</li>
+            <li>الأجهزة اللوحية</li>
+            <li>الأجهزة بدون Google Play</li>
+          </ul>
+        </div>
+
+        <div class="card notes">
+          <h2>⚠️ ملاحظات مهمة</h2>
+          <ul>
+            <li>استعمل نفس حساب Gmail المسجل في الاختبار.</li>
+            <li>قد يستغرق ظهور التطبيق بضع دقائق بعد الانضمام.</li>
+            <li>لا تحذف التطبيق أثناء فترة الاختبار.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="container">
+      <div class="section-title">
+        <h2>فيديو التعريف بالتطبيق</h2>
+        <p>شاهد الفيديو لمعرفة فكرة التطبيق وطريقة المشاركة في الاختبار.</p>
+      </div>
+
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/96p91sZgdYE"
+        title="SecretoTools TV Introduction"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section class="container">
+      <div class="card">
+        <h2>🐞 إرسال الملاحظات</h2>
+        <p>
+          إذا واجهت مشكلة، أو لديك اقتراح لتحسين SecretoTools TV،
+          أرسل ملاحظتك عبر النموذج الرسمي.
+        </p>
+        <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeoyOi9xqy_EGQS554AEoZisJQGso8NOuqouGXSeGrPKFaoQg/viewform" target="_blank" rel="noopener">
+          إرسال ملاحظة الآن
+        </a>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-title">
+        <h2>سجل التحديثات</h2>
+        <p>توثيق الإصدارات والتحسينات القادمة.</p>
+      </div>
+
+      <div class="card">
+        <div class="changelog-item">
+          <h3>v1.0.0 — First Closed Beta</h3>
+          <p>أول إصدار تجريبي مغلق لتطبيق SecretoTools TV.</p>
+        </div>
+
+        <div class="changelog-item">
+          <h3>v1.0.1 — Planned</h3>
+          <p>تحسينات بناءً على ملاحظات المختبرين، إصلاحات توافق، وتحسين الأداء.</p>
+        </div>
+
+        <div class="changelog-item">
+          <h3>v1.0.2 — Planned</h3>
+          <p>تحسين واجهة المستخدم وإضافة ميزات جديدة حسب اقتراحات المجتمع.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-title">
+        <h2>الأسئلة الشائعة</h2>
+      </div>
+
+      <details>
+        <summary>هل التطبيق مجاني؟</summary>
+        <p>نعم، SecretoTools TV مجاني خلال مرحلة الاختبار.</p>
+      </details>
+
+      <details>
+        <summary>هل يعمل على الهاتف؟</summary>
+        <p>لا. التطبيق مخصص لأجهزة Android TV وGoogle TV وAndroid TV Box فقط.</p>
+      </details>
+
+      <details>
+        <summary>لماذا لا يظهر التطبيق بعد الانضمام؟</summary>
+        <p>قد يحتاج Google Play لبعض الوقت لتفعيل حسابك كمختبر. انتظر بضع دقائق ثم أعد فتح المتجر.</p>
+      </details>
+
+      <details>
+        <summary>كيف أرسل مشكلة أو اقتراح؟</summary>
+        <p>يمكنك استخدام زر إرسال الملاحظات في هذه الصفحة.</p>
+      </details>
+
+      <details>
+        <summary>هل يجب استخدام نفس Gmail؟</summary>
+        <p>نعم، يجب استخدام نفس حساب Gmail الذي سجلت به في برنامج الاختبار.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <img src="st.png" alt="SecretoTools TV" />
+      <span>SecretoTools TV</span>
+    </div>
+    <p>Beta Portal الرسمي لمختبري SecretoTools TV.</p>
+    <p>© 2026 SecretoTools. جميع الحقوق محفوظة.</p>
+    <p><a href="https://secretotools.com">secretotools.com</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
