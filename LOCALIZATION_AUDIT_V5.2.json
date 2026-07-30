@@ -1,0 +1,36 @@
+{
+  "version": "5.2",
+  "html_pages": 90,
+  "errors": [],
+  "status": "PASS",
+  "english_pages": 30,
+  "french_pages": 30,
+  "arabic_pages": 30,
+  "checks": [
+    "localized page parity",
+    "HTML lang attributes",
+    "Arabic dir=rtl",
+    "internal asset existence",
+    "internal link targets",
+    "JSON-LD parsing",
+    "French Arabic-script leakage",
+    "English-copy heuristic"
+  ],
+  "preserved_terms": [
+    "SecretoTools",
+    "SecretoTools TV",
+    "Secreto Hub",
+    "Android TV",
+    "Google TV",
+    "Google Play",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Kotlin",
+    "Jetpack Compose",
+    "LAN",
+    "DRM",
+    "version numbers",
+    "hex color values"
+  ]
+}

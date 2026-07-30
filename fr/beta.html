@@ -1,0 +1,253 @@
+<!doctype html>
+<!DOCTYPE html>
+
+<html dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portail bêta SecretoTools TV | Programme des testeurs</title>
+<meta content="Portail officiel SecretoTools TV pour demander à rejoindre le test fermé, accéder à Google Play et envoyer les commentaires des testeurs." name="description"/>
+<meta content="index, follow" name="robots"/>
+<link href="https://secretotools.com/fr/beta.html" rel="canonical"/>
+<meta content="Portail bêta SecretoTools TV" property="og:title"/>
+<meta content="Demandez à rejoindre le programme, testez l’application et envoyez vos commentaires sur SecretoTools TV." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://secretotools.com/fr/beta.html" property="og:url"/>
+<meta content="https://secretotools.com/st.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Portail bêta SecretoTools TV" name="twitter:title"/>
+<meta content="Portail officiel des testeurs de SecretoTools TV." name="twitter:description"/>
+<meta content="https://secretotools.com/st.png" name="twitter:image"/>
+<style>
+    :root {
+      --bg:#050816;--card:#0f172a;--card2:#111827;--blue:#0ea5ff;--blue2:#2563eb;
+      --red:#ef4444;--text:#fff;--muted:#94a3b8;--line:rgba(255,255,255,.12);
+      --glow:0 0 30px rgba(14,165,255,.35)
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(circle at top right,rgba(14,165,255,.22),transparent 35%),radial-gradient(circle at bottom left,rgba(239,68,68,.14),transparent 30%),var(--bg);color:var(--text);line-height:1.8}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    header{padding:18px 0;position:sticky;top:0;z-index:20;background:rgba(5,8,22,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;font-size:20px}
+    .brand img{width:46px;height:46px;border-radius:14px;box-shadow:var(--glow)}
+    .quick{background:linear-gradient(135deg,var(--blue),var(--blue2));padding:10px 18px;border-radius:999px;font-weight:800}
+    .hero{padding:70px 0 45px;display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:center}
+    .badge{display:inline-flex;border:1px solid rgba(14,165,255,.35);background:rgba(14,165,255,.09);color:#bae6fd;padding:8px 14px;border-radius:999px;font-size:14px;margin-bottom:18px}
+    h1{font-size:clamp(34px,5vw,64px);line-height:1.15;margin:0 0 20px}
+    h1 span{background:linear-gradient(135deg,#38bdf8,#2563eb);-webkit-background-clip:text;color:transparent}
+    .hero p,.muted{color:var(--muted)}
+    .hero p{font-size:18px;max-width:720px;margin-bottom:26px}
+    .actions{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 21px;border-radius:16px;font-weight:900;transition:.25s;border:1px solid transparent}
+    .btn:hover{transform:translateY(-3px);filter:brightness(1.08)}
+    .btn-primary{background:linear-gradient(135deg,var(--blue),var(--blue2));box-shadow:var(--glow)}
+    .btn-secondary{background:rgba(255,255,255,.06);border-color:var(--line)}
+    .btn-red{background:linear-gradient(135deg,#ef4444,#b91c1c)}
+    .hero-card{background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.03));border:1px solid var(--line);border-radius:34px;padding:34px;text-align:center;box-shadow:0 24px 70px rgba(0,0,0,.35)}
+    .hero-card img{width:min(260px,78%);border-radius:34px;box-shadow:var(--glow)}
+    section{padding:48px 0}
+    .section-title{margin-bottom:22px}
+    .section-title h2{font-size:clamp(26px,4vw,40px);margin:0 0 8px}
+    .grid{display:grid;gap:18px}
+    .stats{grid-template-columns:repeat(4,1fr)}
+    .cards3{grid-template-columns:repeat(3,1fr)}
+    .steps{grid-template-columns:repeat(2,1fr)}
+    .card{background:rgba(15,23,42,.82);border:1px solid var(--line);border-radius:24px;padding:24px}
+    .stat strong{font-size:34px;display:block;color:#38bdf8}
+    .alert{border:1px solid rgba(239,68,68,.45);background:rgba(239,68,68,.12);border-radius:22px;padding:20px;margin-top:20px}
+    .step{position:relative}
+    .step b{display:inline-flex;width:40px;height:40px;align-items:center;justify-content:center;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--blue2));margin-bottom:10px}
+    ul{padding-right:22px}
+    li{margin:8px 0;color:var(--muted)}
+    .video{aspect-ratio:16/9;width:100%;border:0;border-radius:28px;box-shadow:0 18px 60px rgba(0,0,0,.4);background:#111}
+    .changelog-item{border-right:3px solid var(--blue);padding-right:18px;margin-bottom:18px}
+    .changelog-item h3{margin:0 0 8px;color:#38bdf8}
+    details{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin-bottom:12px}
+    summary{cursor:pointer;font-weight:900}
+    details p{color:var(--muted);margin-bottom:0}
+    footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);text-align:center}
+    .footer-logo{display:flex;justify-content:center;align-items:center;gap:12px;color:#fff;font-weight:900;margin-bottom:10px}
+    .footer-logo img{width:38px;border-radius:10px}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;text-align:center}.hero p{margin-inline:auto}.actions{justify-content:center}.stats,.cards3,.steps{grid-template-columns:1fr 1fr}}
+    @media(max-width:560px){.stats,.cards3,.steps{grid-template-columns:1fr}.nav{flex-direction:column}.btn{width:100%}.hero-card{padding:24px}}
+  </style>
+<meta content="fr_FR" property="og:locale"/><meta content="fr_FR" property="og:locale:alternate"/><meta content="ar_MA" property="og:locale:alternate"/><link href="https://secretotools.com/beta.html" hreflang="en" rel="alternate"/><link href="https://secretotools.com/fr/beta.html" hreflang="fr" rel="alternate"/><link href="https://secretotools.com/ar/beta.html" hreflang="ar" rel="alternate"/><link href="https://secretotools.com/beta.html" hreflang="x-default" rel="alternate"/><meta content="en_US" property="og:locale:alternate"/><meta content="ar_MA" property="og:locale:alternate"/></head>
+<body class="locale-fr"><a class="skip-link" href="#main-content">Aller au contenu principal</a>
+<header>
+<div class="container nav">
+<div class="brand">
+<img alt="SecretoTools TV Logo" decoding="async" height="1254" src="/st.png" width="1254"/>
+<span>SecretoTools TV Beta</span>
+</div>
+<a class="quick" href="https://docs.google.com/forms/d/e/1FAIpQLSeoyOi9xqy_EGQS554AEoZisJQGso8NOuqouGXSeGrPKFaoQg/viewform" rel="noopener noreferrer" target="_blank">Demander à rejoindre</a>
+</div>
+</header>
+<main id="main-content">
+<section class="container hero">
+<div>
+<div class="badge">🚀 Programme officiel de test fermé</div>
+<h1>Bienvenue sur <span>Portail bêta SecretoTools TV</span></h1>
+<p>
+        Cette page est le centre officiel des testeurs de SecretoTools TV. Vous pouvez y demander à rejoindre le programme, accéder au test Google Play après l’ajout de votre compte, puis envoyer vos commentaires après utilisation.
+      </p>
+<div class="actions">
+<a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeoyOi9xqy_EGQS554AEoZisJQGso8NOuqouGXSeGrPKFaoQg/viewform" rel="noopener noreferrer" target="_blank">📝 Demander à rejoindre le test</a>
+<a class="btn btn-secondary" href="https://play.google.com/apps/testing/com.secretofnet.secretotoolstv" rel="noopener noreferrer" target="_blank">🚀 Accéder à Google Play</a>
+<a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLScHqTCF5xqsqeZTCQToskeOCdyJRLdZtvBxWeshaha1_7gCoQ/viewform" rel="noopener noreferrer" target="_blank">🐞 Envoyer des commentaires</a>
+<a class="btn btn-red" href="#video">▶ Regarder la vidéo de présentation</a>
+</div>
+<div class="alert">
+        ⚠️ Important : si votre adresse e-mail ne figure pas dans la liste des testeurs de Google Play Console, vous ne pourrez pas installer l’application depuis le lien Google Play.
+      </div>
+</div>
+<div class="hero-card">
+<img alt="SecretoTools TV" decoding="async" fetchpriority="high" height="1254" src="/st.png" width="1254"/>
+<h2>Version 1.0.0</h2>
+<p class="muted">Bêta fermée pour Android TV / Google TV</p>
+</div>
+</section>
+<section class="container">
+<div class="grid stats">
+<div class="card stat"><strong>560+</strong><span>Inscrits au programme</span></div>
+<div class="card stat"><strong>438+</strong><span>Invités initialement</span></div>
+<div class="card stat"><strong>100+</strong><span>Testeur actif actuellement</span></div>
+<div class="card stat"><strong>1.0.1 Beta</strong><span>Version actuelle</span></div>
+</div>
+</section>
+<section class="container">
+<div class="section-title">
+<h2>Étapes correctes pour rejoindre le programme</h2>
+<p class="muted">Suivez ces étapes pour éviter les messages d’inéligibilité ou d’incompatibilité.</p>
+</div>
+<div class="grid steps">
+<div class="card step"><b>1</b><h3>Remplissez le formulaire de demande</h3><p class="muted">Indiquez votre adresse Gmail et le type de votre appareil dans le formulaire.</p></div>
+<div class="card step"><b>2</b><h3>Attendez l’ajout de votre compte</h3><p class="muted">Nous ajouterons les adresses à la liste des testeurs Google Play Console par groupes.</p></div>
+<div class="card step"><b>3</b><h3>Accédez à Google Play</h3><p class="muted">Après votre ajout, utilisez le bouton d’accès à Google Play sur cette page.</p></div>
+<div class="card step"><b>4</b><h3>Cliquez sur « Become a Tester »</h3><p class="muted">Rejoignez officiellement le programme de test depuis la page Google Play.</p></div>
+<div class="card step"><b>5</b><h3>Ouvrez la boutique sur votre TV</h3><p class="muted">Ouvrez Google Play sur Android TV ou Google TV avec la même adresse Gmail.</p></div>
+<div class="card step"><b>6</b><h3>Installez et testez l’application</h3><p class="muted">Recherchez SecretoTools TV, puis installez-le et testez-le.</p></div>
+<div class="card step"><b>7</b><h3>Envoyez vos commentaires</h3><p class="muted">Après le test, utilisez le formulaire de commentaires pour signaler des problèmes ou proposer des améliorations.</p></div>
+</div>
+</section>
+<section class="container">
+<div class="section-title">
+<h2>Qu’est-ce que SecretoTools TV ?</h2>
+<p class="muted">Une application d’outils professionnels dédiée aux appareils Android TV et Google TV.</p>
+</div>
+<div class="grid cards3">
+<div class="card"><h3>📺 Conçu pour la télévision</h3><p class="muted">Une interface adaptée à la télécommande et confortable sur grand écran.</p></div>
+<div class="card"><h3>🧰 Outils utiles</h3><p class="muted">Informations sur l’appareil, les applications, le stockage, le réseau et la compatibilité.</p></div>
+<div class="card"><h3>🔒 Sûr et simple</h3><p class="muted">Une application légère, claire et sans complexité inutile.</p></div>
+</div>
+</section>
+<section class="container">
+<div class="grid cards3">
+<div class="card">
+<h2>✅ Appareils pris en charge</h2>
+<ul>
+<li>Google TV</li>
+<li>Android TV</li>
+<li>Android TV Box</li>
+</ul>
+</div>
+<div class="card">
+<h2>❌ Non pris en charge</h2>
+<ul>
+<li>Smartphones</li>
+<li>Tablettes</li>
+<li>Appareils sans Google Play</li>
+</ul>
+</div>
+<div class="card">
+<h2>⚠️ Remarques importantes</h2>
+<ul>
+<li>Utilisez la même adresse Gmail que celle indiquée dans le formulaire.</li>
+<li>L’activation de votre compte peut prendre un certain temps après son ajout.</li>
+<li>Après le test, envoyez vos commentaires via le formulaire officiel.</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="container" id="video">
+<div class="section-title">
+<h2>Vidéo de présentation de l’application</h2>
+<p class="muted">Regardez la vidéo pour découvrir l’application et la procédure de participation.</p>
+</div>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" class="video" loading="lazy" src="https://www.youtube-nocookie.com/embed/96p91sZgdYE" title="SecretoTools TV Introduction">
+</iframe>
+</section>
+<section class="container">
+<div class="card">
+<h2>🐞 Envoyer des commentaires après le test</h2>
+<p class="muted">
+        Si vous rencontrez un problème ou souhaitez proposer une amélioration de SecretoTools TV, utilisez le formulaire officiel de commentaires.
+      </p>
+<a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScHqTCF5xqsqeZTCQToskeOCdyJRLdZtvBxWeshaha1_7gCoQ/viewform" rel="noopener noreferrer" target="_blank">
+        Envoyer un commentaire maintenant
+      </a>
+</div>
+</section>
+<section class="container">
+<div class="section-title">
+<h2>Journal des mises à jour</h2>
+<p class="muted">Suivi des versions et des améliorations à venir.</p>
+</div>
+<div class="card">
+<div class="changelog-item">
+<h3>v1.0.0 — Première bêta fermée</h3>
+<p class="muted">Première version bêta fermée de SecretoTools TV.</p>
+</div>
+<div class="changelog-item">
+<h3>v1.0.1 — Planifiée</h3>
+<p class="muted">Améliorations fondées sur les retours des testeurs, corrections de compatibilité et optimisation des performances.</p>
+</div>
+<div class="changelog-item">
+<h3>v1.0.2 — Planifiée</h3>
+<p class="muted">Amélioration de l’interface et ajout de nouvelles fonctions selon les suggestions de la communauté.</p>
+</div>
+</div>
+</section>
+<section class="container">
+<div class="section-title"><h2>Questions fréquentes</h2></div>
+<details>
+<summary>Puis-je installer l’application directement depuis Google Play ?</summary>
+<p>Non. Votre adresse e-mail doit d’abord être ajoutée à la liste des testeurs dans Google Play Console.</p>
+</details>
+<details>
+<summary>Que faire si l’application est indiquée comme incompatible ?</summary>
+<p>Vérifiez que vous utilisez Android TV, Google TV ou un boîtier Android TV, et que vous êtes connecté avec l’adresse Gmail ajoutée au programme.</p>
+</details>
+<details>
+<summary>L’application fonctionne-t-elle sur téléphone ?</summary>
+<p>Non, l’application est réservée aux appareils Android TV et Google TV.</p>
+</details>
+<details>
+<summary>Comment signaler un problème ou proposer une idée ?</summary>
+<p>Utilisez le bouton d’envoi de commentaires sur cette page après avoir testé l’application.</p>
+</details>
+</section>
+</main>
+<footer>
+<div class="footer-logo">
+<img alt="SecretoTools TV" decoding="async" height="1254" loading="lazy" src="/st.png" width="1254"/>
+<span>SecretoTools TV</span>
+</div>
+<p>Portail bêta officiel des testeurs de SecretoTools TV.</p>
+<p>© 2026 SecretoTools. Tous droits réservés.</p>
+<p><a href="https://secretotools.com">secretotools.com</a> · <a href="/fr/privacy-policy/">Confidentialité</a> · <a href="/fr/terms/">Conditions</a> · <a href="/fr/support/">Assistance</a></p>
+</footer>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+</body>
+</html>

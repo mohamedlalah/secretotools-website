@@ -1,9 +1,18 @@
 /privacy /privacy-policy/ 301
 /privacy-policy /privacy-policy/ 301
+/privacy.html /privacy-policy/ 301
 /terms /terms/ 301
+/terms.html /terms/ 301
 /support /support/ 301
-/download /download/ 301
+/support.html /support/ 301
+/download /downloads/ 301
+/download/ /downloads/ 301
 /faq /faq/ 301
 /contact /contact/ 301
+/contact.html /contact/ 301
 /changelog /changelog/ 301
+/products/secretotools-tv /products/secretotools-tv/ 301
 
+/fr /fr/ 301
+/ar /ar/ 301
+/404 /404.html 200

@@ -1,12 +1,12 @@
 {
-  "name": "SecretoTools TV",
+  "name": "SecretoTools",
   "short_name": "SecretoTools",
-  "description": "Professional Android TV and Google TV toolkit for diagnostics and compatibility information.",
+  "description": "Professional, privacy-focused utilities for Android TV and Google TV.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#060914",
-  "theme_color": "#060914",
+  "background_color": "#050814",
+  "theme_color": "#050814",
   "orientation": "any",
   "lang": "en",
   "icons": [
@@ -17,22 +17,11 @@
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
       "src": "/assets/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/assets/icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
-  ]
+  ],
+  "dir": "ltr"
 }

@@ -1,12 +1,556 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://secretotools.com/</loc><lastmod>2026-07-06</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://secretotools.com/beta</loc><lastmod>2026-07-09</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://secretotools.com/download/</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://secretotools.com/faq/</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://secretotools.com/support/</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://secretotools.com/contact/</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://secretotools.com/privacy-policy/</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://secretotools.com/terms/</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://secretotools.com/changelog/</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://secretotools.com/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/about/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/about/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/beta/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/beta/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/beta/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/beta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/beta/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/beta.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/beta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/beta.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/beta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/beta.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/changelog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/changelog/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/developer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/developer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/developer/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/developer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/developer/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/downloads/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/journal/building-secretotools-tv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/building-secretotools-tv/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/journal/designing-remote-friendly-interfaces/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/designing-remote-friendly-interfaces/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/journal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/journal/privacy-first-development/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/privacy-first-development/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/journal/secretotools-product-roadmap/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/secretotools-product-roadmap/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/journal/testing-across-android-tv-devices/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/testing-across-android-tv-devices/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/journal/why-secreto-hub-uses-local-network-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/why-secreto-hub-uses-local-network-transfers/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/press/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/products/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/products/secreto-hub/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/secreto-hub/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/products/secretotools-tv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/secretotools-tv/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/support/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/support.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/ar/timeline/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/timeline/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/beta/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/beta/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/beta/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/beta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/beta/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/changelog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/changelog/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/developer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/developer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/developer/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/developer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/developer/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/downloads/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/about/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/beta/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/beta/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/beta/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/beta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/beta/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/beta.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/beta.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/beta.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/beta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/beta.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/changelog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/changelog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/changelog/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/developer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/developer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/developer/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/developer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/developer/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/downloads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/downloads/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/journal/building-secretotools-tv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/building-secretotools-tv/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/journal/designing-remote-friendly-interfaces/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/designing-remote-friendly-interfaces/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/journal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/journal/privacy-first-development/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/privacy-first-development/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/journal/secretotools-product-roadmap/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/secretotools-product-roadmap/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/journal/testing-across-android-tv-devices/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/testing-across-android-tv-devices/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/journal/why-secreto-hub-uses-local-network-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/why-secreto-hub-uses-local-network-transfers/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/press/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/products/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/products/secreto-hub/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/secreto-hub/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/products/secretotools-tv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/secretotools-tv/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/support/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/support.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/fr/timeline/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/timeline/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/./</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/./"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/./"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/./"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/./"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/journal/building-secretotools-tv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/building-secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/building-secretotools-tv/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/journal/designing-remote-friendly-interfaces/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/designing-remote-friendly-interfaces/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/designing-remote-friendly-interfaces/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/journal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/journal/privacy-first-development/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/privacy-first-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/privacy-first-development/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/journal/secretotools-product-roadmap/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/secretotools-product-roadmap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/secretotools-product-roadmap/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/journal/testing-across-android-tv-devices/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/testing-across-android-tv-devices/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/testing-across-android-tv-devices/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/journal/why-secreto-hub-uses-local-network-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/journal/why-secreto-hub-uses-local-network-transfers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/journal/why-secreto-hub-uses-local-network-transfers/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/press/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/products/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/products/secreto-hub/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/secreto-hub/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/secreto-hub/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/products/secretotools-tv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/products/secretotools-tv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/products/secretotools-tv/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/support/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://secretotools.com/timeline/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://secretotools.com/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://secretotools.com/fr/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://secretotools.com/ar/timeline/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://secretotools.com/timeline/"/>
+  </url>
 </urlset>
