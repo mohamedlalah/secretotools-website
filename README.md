@@ -21,3 +21,7 @@ French and Arabic versions now mirror the complete English page structure. All l
 ## v5.3 release quality
 
 This release is the GitHub-ready production candidate. It preserves all English, French and Arabic content from v5.2 while adding final accessibility, performance, metadata, redirect and integrity checks. See `QA_REPORT_V5.3.json` and `RELEASE_CHECKLIST_V5.3.md`.
+
+
+## Secreto Hub 1.0 content update
+Product, catalog, timeline, press, changelog and engineering-journal content updated in EN/FR/AR to reflect the verified Secure Encrypted Transfer workflow.
