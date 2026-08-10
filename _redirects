@@ -12,7 +12,36 @@
 /contact.html /contact/ 301
 /changelog /changelog/ 301
 /products/secretotools-tv /products/secretotools-tv/ 301
+/products/secreto-hub /products/secreto-hub/ 301
+/beta/ /beta 301
+/beta.html /beta 301
 
 /fr /fr/ 301
+/fr/privacy /fr/privacy-policy/ 301
+/fr/privacy.html /fr/privacy-policy/ 301
+/fr/terms /fr/terms/ 301
+/fr/terms.html /fr/terms/ 301
+/fr/support /fr/support/ 301
+/fr/support.html /fr/support/ 301
+/fr/contact /fr/contact/ 301
+/fr/contact.html /fr/contact/ 301
+/fr/download /fr/downloads/ 301
+/fr/download/ /fr/downloads/ 301
+/fr/beta/ /fr/beta 301
+/fr/beta.html /fr/beta 301
+
 /ar /ar/ 301
+/ar/privacy /ar/privacy-policy/ 301
+/ar/privacy.html /ar/privacy-policy/ 301
+/ar/terms /ar/terms/ 301
+/ar/terms.html /ar/terms/ 301
+/ar/support /ar/support/ 301
+/ar/support.html /ar/support/ 301
+/ar/contact /ar/contact/ 301
+/ar/contact.html /ar/contact/ 301
+/ar/download /ar/downloads/ 301
+/ar/download/ /ar/downloads/ 301
+/ar/beta/ /ar/beta 301
+/ar/beta.html /ar/beta 301
+
 /404 /404.html 200
