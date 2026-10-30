@@ -103,3 +103,14 @@
 
 /* Switch the global navigation before longer localized labels can overflow. */
 @media(max-width:1120px){.menu-btn{display:inline-flex}.links{position:absolute;left:4vw;right:4vw;top:70px;display:none;flex-direction:column;align-items:stretch;background:rgba(13,19,36,.98);border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:var(--shadow)}.links.is-open{display:flex}.links .btn{width:100%}.nav-inner{position:relative}.footer-links{width:100%;flex-wrap:wrap}}
+
+/* Compact six-product homepage catalog */
+.home-products-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.home-products-grid .product-card{min-height:0;padding:20px;border-radius:22px;gap:16px;grid-template-columns:76px minmax(0,1fr)}
+.home-products-grid .product-icon{width:76px;height:76px;min-width:0}
+.home-products-grid .product-icon img{width:76px;height:76px;object-fit:contain}
+.home-products-grid .product-card h3{font-size:clamp(19px,2vw,25px);line-height:1.2;margin:8px 0}
+.home-products-grid .product-card p{font-size:14px;line-height:1.55;margin:8px 0 14px}
+.home-products-grid .product-card .cta{gap:10px;flex-wrap:wrap}
+.home-products-grid .product-card .btn{padding:10px 14px;font-size:13px}
+@media(max-width:760px){.home-products-grid{grid-template-columns:1fr}.home-products-grid .product-card{grid-template-columns:64px minmax(0,1fr);padding:16px}.home-products-grid .product-icon,.home-products-grid .product-icon img{width:64px;height:64px}}
