@@ -114,3 +114,15 @@
 .home-products-grid .product-card .cta{gap:10px;flex-wrap:wrap}
 .home-products-grid .product-card .btn{padding:10px 14px;font-size:13px}
 @media(max-width:760px){.home-products-grid{grid-template-columns:1fr}.home-products-grid .product-card{grid-template-columns:64px minmax(0,1fr);padding:16px}.home-products-grid .product-icon,.home-products-grid .product-icon img{width:64px;height:64px}}
+
+/* Unified compact homepage product cards — all six use identical geometry */
+.home-products-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:16px}
+.home-products-grid .product-card,.home-products-grid .product-card.featured{display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;min-height:0;height:100%;padding:20px;border-radius:22px;box-shadow:none;align-content:start}
+.home-products-grid .product-icon,.home-products-grid .product-icon.hub-icon{width:72px;height:72px;min-width:72px;max-width:72px;display:flex;align-items:center;justify-content:center}
+.home-products-grid .product-icon img{width:72px;height:72px;max-width:100%;object-fit:contain}
+.home-products-grid .product-card h3{font-size:21px;line-height:1.25;margin:8px 0}
+.home-products-grid .product-card p{font-size:14px;line-height:1.5;margin:8px 0 12px}
+.home-products-grid .product-card .cta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px}
+.home-products-grid .product-card .btn{padding:9px 13px;font-size:13px}
+.home-products-grid .product-card .text-link{font-size:13px}
+@media(max-width:760px){.home-products-grid{grid-template-columns:1fr}.home-products-grid .product-card,.home-products-grid .product-card.featured{grid-template-columns:60px minmax(0,1fr);padding:16px;gap:12px}.home-products-grid .product-icon,.home-products-grid .product-icon.hub-icon,.home-products-grid .product-icon img{width:60px;height:60px;min-width:60px}}
