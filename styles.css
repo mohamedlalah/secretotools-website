@@ -126,3 +126,11 @@
 .home-products-grid .product-card .btn{padding:9px 13px;font-size:13px}
 .home-products-grid .product-card .text-link{font-size:13px}
 @media(max-width:760px){.home-products-grid{grid-template-columns:1fr}.home-products-grid .product-card,.home-products-grid .product-card.featured{grid-template-columns:60px minmax(0,1fr);padding:16px;gap:12px}.home-products-grid .product-icon,.home-products-grid .product-icon.hub-icon,.home-products-grid .product-icon img{width:60px;height:60px;min-width:60px}}
+
+/* Homepage: strictly equal card widths and heights, irrespective of content */
+#products .home-products-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-rows:1fr!important;align-items:stretch!important}
+#products .home-products-grid>.product-card,#products .home-products-grid>.product-card.featured{box-sizing:border-box!important;width:100%!important;min-width:0!important;min-height:280px!important;height:100%!important;grid-template-columns:72px minmax(0,1fr)!important;padding:20px!important;gap:16px!important}
+#products .home-products-grid>.product-card>div:last-child{min-width:0;display:flex;flex-direction:column;align-items:flex-start}
+#products .home-products-grid>.product-card .cta{margin-top:auto;padding-top:12px}
+#products .home-products-grid>.product-card .product-icon{width:72px!important;height:72px!important}
+@media(max-width:760px){#products .home-products-grid{grid-template-columns:minmax(0,1fr)!important;grid-auto-rows:auto!important}#products .home-products-grid>.product-card,#products .home-products-grid>.product-card.featured{min-height:240px!important;grid-template-columns:60px minmax(0,1fr)!important;padding:16px!important}#products .home-products-grid>.product-card .product-icon{width:60px!important;height:60px!important}}
